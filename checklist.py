@@ -46,7 +46,7 @@ def substitute_qa(text: str) -> str:
 
 
 def substitute_colloquy(text: str) -> str:
-    return re.sub(r"(:\n|: )(?=[^Q][^.])", r":  ", text)
+    return re.sub(r"(?<!testified as follows)(:\n|: )(?=[^Q][^.])", r":  ", text)
 
 
 def substitute_by_line_colon(text: str) -> str:
@@ -78,7 +78,6 @@ def format_tabs(text: str) -> str:
 
 def format_parentheticals(text: str) -> str:
     t = r"|".join(parenthetical)
-    print(t)
     return re.sub(fr'\(({t})', r'\t\t(\g<1>', text)
 
 
