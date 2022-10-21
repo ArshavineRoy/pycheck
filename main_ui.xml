@@ -8,7 +8,7 @@
   <tkinter.ttk.Scrollbar name="scroll_y" layout:sticky="ns" layout:row="0" layout:column="4"/>
   <tkinter.Frame name="frame3" attr:background="#474545" attr:layout="pack" layout:width="0" layout:height="0" layout:sticky="nesw" layout:row="1" layout:column="0">
     <tkinter.ttk.Button name="button3" attr:command="save" attr:text="Save" layout:width="" layout:side="right"/>
-    <!-- <tkinter.ttk.Button name="button4" attr:command="refresh" attr:text="Refresh" layout:width="" layout:side="right"/> -->
+    <tkinter.ttk.Button name="button4" attr:command="refresh" attr:text="Refresh" layout:width="" layout:side="right"/>
     <tkinter.ttk.Button name="button5" attr:command="copy" attr:text="Copy" layout:width="" layout:side="right"/>
     <tkinter.ttk.Button name="button6" attr:command="open" attr:text="Open" layout:width="" layout:pady="10" layout:side="right"/>
   </tkinter.Frame>

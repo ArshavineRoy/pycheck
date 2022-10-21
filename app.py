@@ -41,7 +41,7 @@ class FormatApp(AppBuilder):
             self._fmt_by_line,
             self._fmt_colloquy,
             self._fmt_qa,
-            self._fmt_false_start,
+            self._fmt_strike_that,
             self._fmt_parenthetical,
             self._fmt_abbrev,
             self._fmt_invalid_qa,
@@ -57,13 +57,14 @@ class FormatApp(AppBuilder):
             self._app.wm_attributes('-zoomed', True)
 
         self.main_text.tag_config('by-line', foreground='#7271f0', font='SystemDefault 10 bold')
-        self.main_text.tag_config('colloquy', foreground='green', font='SystemDefault 10 bold')
+        self.main_text.tag_config('colloquy', foreground='#A3E635', font='SystemDefault 10 bold')
         self.main_text.tag_config('qa', foreground='orange', font='SystemDefault 10 bold')
-        self.main_text.tag_config('false-start', background="#353570")
+        self.main_text.tag_config('file-joint', background="#353570")
+        self.main_text.tag_config('strike-that', background="#66C05A")
         self.main_text.tag_config('parenthetical', foreground='magenta', font='SystemDefault 10')
         self.main_text.tag_config('abbrev', background='#e8a9a9')
-        self.main_text.tag_config('invalid-qa', background='#e8a9a9')
-        self.main_text.tag_config('examination_heading', foreground='red', font='SystemDefault 10 bold')
+        self.main_text.tag_config('invalid-qa', background='#ED594A')
+        self.main_text.tag_config('examination-heading', foreground='red', font='SystemDefault 10 bold')
 
 
     def copy(self):
@@ -141,9 +142,9 @@ class FormatApp(AppBuilder):
         for m in re.finditer(r'\t([QA].)\t', self.text):
             self.main_text.tag_add('qa', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
 
-    def _fmt_false_start(self):
+    def _fmt_strike_that(self):
         for m in re.finditer(r'(--.+(?:rephrase|[sS]trike that))', self.text):
-            self.main_text.tag_add('false-start', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
+            self.main_text.tag_add('strike-that', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
 
     def _fmt_parenthetical(self):
         for m in re.finditer(r'\t\t(\(.+\))', self.text):
@@ -165,11 +166,11 @@ class FormatApp(AppBuilder):
 
     def _fmt_joint(self):
         for m in re.finditer(r'.+{{{.+', self.text):
-            self.main_text.tag_add('false-start', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
+            self.main_text.tag_add('file-joint', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
 
     def _fmt_examination_heading(self):
         for m in re.finditer(r"\n(.+EXAMINATION)\n", self.text):
-            self.main_text.tag_add('examination_heading', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
+            self.main_text.tag_add('examination-heading', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
 
 
 if __name__ == '__main__':
