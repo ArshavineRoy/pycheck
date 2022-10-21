@@ -46,6 +46,7 @@ class FormatApp(AppBuilder):
             self._fmt_abbrev,
             self._fmt_invalid_qa,
             self._fmt_joint,
+            self._fmt_examination_heading
         )
 
         self._app.title('PyCheck Auto-Formatter')
@@ -62,6 +63,8 @@ class FormatApp(AppBuilder):
         self.main_text.tag_config('parenthetical', foreground='magenta', font='SystemDefault 10')
         self.main_text.tag_config('abbrev', background='#e8a9a9')
         self.main_text.tag_config('invalid-qa', background='#e8a9a9')
+        self.main_text.tag_config('examination_heading', foreground='red', font='SystemDefault 10 bold')
+
 
     def copy(self):
         self.main_text.clipboard_clear()
@@ -163,6 +166,10 @@ class FormatApp(AppBuilder):
     def _fmt_joint(self):
         for m in re.finditer(r'.+{{{.+', self.text):
             self.main_text.tag_add('false-start', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
+
+    def _fmt_examination_heading(self):
+        for m in re.finditer(r"\n(.+EXAMINATION)\n", self.text):
+            self.main_text.tag_add('examination_heading', f'0.0 + {m.span()[0]} chars', f'0.0 + {m.span()[1]} chars')
 
 
 if __name__ == '__main__':
