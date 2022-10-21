@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tkinter.Frame xmlns:attr="http://www.hoversetformationstudio.com/styles/" xmlns:layout="http://www.hoversetformationstudio.com/layouts/" name="frame1" attr:background="#474545" attr:padx="10" attr:pady="10" attr:layout="grid" layout:width="602" layout:height="523" layout:x="30" layout:y="30">
+  <grid row="0" weight="1"/>
+  <grid row="1" minsize="40"/>
+  <grid column="0" weight="1"/>
+  <meta major="5" minor="0" name="version"/>
+  <tkinter.Text name="main_text" attr:background="#2b2e2e" attr:foreground="#ffffff" attr:highlightthickness="0" attr:insertbackground="#ffffff" attr:relief="flat" attr:wrap="word" layout:width="50" layout:height="24" layout:sticky="nesw" layout:row="0" layout:column="0" layout:columnspan="4"/>
+  <tkinter.ttk.Scrollbar name="scroll_y" layout:sticky="ns" layout:row="0" layout:column="4"/>
+  <tkinter.Frame name="frame3" attr:background="#474545" attr:layout="pack" layout:width="0" layout:height="0" layout:sticky="nesw" layout:row="1" layout:column="0">
+    <tkinter.ttk.Button name="button3" attr:command="save" attr:text="Save" layout:width="" layout:side="right"/>
+    <!-- <tkinter.ttk.Button name="button4" attr:command="refresh" attr:text="Refresh" layout:width="" layout:side="right"/> -->
+    <tkinter.ttk.Button name="button5" attr:command="copy" attr:text="Copy" layout:width="" layout:side="right"/>
+    <tkinter.ttk.Button name="button6" attr:command="open" attr:text="Open" layout:width="" layout:pady="10" layout:side="right"/>
+  </tkinter.Frame>
+</tkinter.Frame>
