@@ -1,0 +1,9 @@
+appdirs==1.4.4
+EasyProcess==1.1
+entrypoint2==1.1
+formation-studio==0.5.0
+jeepney==0.8.0
+lxml==4.9.1
+mss==6.1.0
+pillow==9.2.0
+pyscreenshot==3.0
