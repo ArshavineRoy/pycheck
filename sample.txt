@@ -5,8 +5,6 @@ THE REPORTER: Okay.
 MS. KEEN: I so stipulate.
 THE REPORTER: Okay. And Ms. Hard, will you please raise your right hand?
 (Witness sworn.)
-AMBER HARD,
-having been first duly affirmed, testified as follows:
 THE REPORTER: Okay. Counsel, please proceed.
 MR. REDDINGTON: Thank you.
 DIRECT EXAMINATION
@@ -22,11 +20,10 @@ A. Yes.
 Q. Amber, can you please state your current occupation and the nature of your work?
 Q. I work as a marketing consultant for XYZ Marketing Agency. My role involves developing and implementing marketing strategies for clients.
 Q. How long have you been employed in this capacity?
-A. I've been working as a marketing consultant for approximately five years now.
+A. I've been working as a marketing consultant  here in the U.S. for approximately five years now.
 Q. Prior to your current position, did you have any other relevant professional experiences?
 A. Yes, before XYZ Marketing Agency, I worked as a marketing coordinator at ABC Advertising for two years.
-Q. Let's turn our attention to the events leading up to this deposition. Did you -- strike that.
-Were you acquainted with the plaintiff, John Doe, II, before the incident in question?
+Q. Let's turn our attention to the events leading up to this deposition. Did you -- strike that. Were you acquainted with the plaintiff, John Doe, II, before the incident in question?
 A. Yes, I knew John Doe. We were acquaintances.
 Q. Can you provide a brief overview of the nature of your relationship with Mr. Doe?
 A. We met through mutual friends and occasionally attended social events together. We were not close friends, but we knew each other.
@@ -71,7 +68,7 @@ MS. KEEN: Objection. Form.
 BY MR. REDDINGTON:
 Q. Amber, prior to being served with the lawsuit papers, were you aware that Mr. Doe intended to take legal action against you?
 A. No, I had no knowledge of any such intention.
-Q. Let's delve into your professional background. As a marketing consultant, can you describe the nature of your work and the type of clients you typically handle?
+Q. Let's delve into your professional background. How long -- strike that. As a marketing consultant, can you describe the nature of your work and the type of clients you typically handle?
 A. Certainly. As a marketing consultant at XYZ Marketing Agency, my role involves developing comprehensive marketing strategies for clients across various industries. I work on brand development, digital marketing campaigns, and overall promotional efforts.
 Q. In the course of your work, do you engage in any activities that involve potential conflicts or disputes?
 MS. KEEN: Objection. Relevance.
@@ -112,7 +109,7 @@ Q. Good morning, Amber. My name is Elizabeth Keen, and I represent Mr. John Doe,
 A. Good morning.
 Q. In your previous testimony, you mentioned that you and Mr. Doe were acquaintances who occasionally attended social events together. Can you elaborate on the nature of these social events?
 A. Sure. We had mutual friends, and sometimes we would all gather for dinners or parties. It was more of a casual social circle.
-Q. Were these gatherings organized by a specific group, or were they more spontaneous?
+A. Were these gatherings organized by a specific group, or were they more spontaneous?
 A. It was a mix. Sometimes our mutual friends would plan events, and other times we would informally decide to meet up.
 Q. Regarding the incident at Café Serenity, did you enter the establishment with the intention of meeting Mr. Doe, or was it a coincidental encounter?
 A. It was coincidental. I happened to be at the café, and we ran into each other.
