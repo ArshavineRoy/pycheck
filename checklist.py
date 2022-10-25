@@ -25,6 +25,14 @@ titles = tuple(map(abbreviation_to_raw, (
 
 substitutes_dict = {
     'cuz': 'because',
+    'wanna': 'want to',
+    'kinda': 'kind of',
+    'Kinda': 'Kind of',
+    'lemme': 'let me',
+    'Lemme': 'Let me',
+    'gimme': 'give me',
+    'gonna': 'going to',
+    'Gimme': 'Give me',
     'alright': 'all right',
     'video conference': 'videoconference',
     'Video conference': 'Videoconference'
@@ -63,7 +71,7 @@ def substitute_title_abbreviations(text: str) -> str:
 
 
 def substitute_strike_that(text: str) -> str:
-    return re.sub(r"([sS]trike that.*\n)", r"\g<1>\t\t", text)
+    return re.sub(r"([sS]trike that.  )", r"\g<1>\n\t\t", text)
 
 
 def substitute_double_colon(text: str) -> str:
