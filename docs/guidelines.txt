@@ -1,0 +1,65 @@
+SAMPLE GUIDELINES
+
+Below are six examples of the guidelines that MUST be enforced when proofreading. 
+
+1. Q. and A. (with periods) should be used with a TAB before and after and wrap to the left margin.
+For example:
+
+	Q.	Good morning.  How are you doing today?
+	A.	I'm doing well.  How about yourself?
+	Q.	Good.  Thank you for asking.  As you heard, my name is Raymond Reddington.  I'm an attorney.  I work at Raymond Reddington, PLLC.  I'll be taking your deposition today.  Can I get you to start off just by stating your full and complete legal name for the record?
+	A.	Yes.  My name is Amber Hard.  H-A-R-D.
+	Q.	And for purposes of today, may I call you Amber?  Or do you prefer Ms. Hard?  Let me know your preference.
+	A.	Amber is fine.
+	Q.	And Amber, have you given a deposition before?
+	A.	Yes.
+
+
+2. Colloquy should have two tabs prior to each speaker ID, followed by a colon, and then 2 spaces. The text should wrap to the left margin.
+For example:
+
+		MS. KEEN:  Well, given that, I have no further questions.
+		THE REPORTER:  Mr. Reddington, do you have any questions?
+		MR. REDDINGTON:  I do not.  I do not have any questions.
+		THE REPORTER:  Okay.  So this is the court reporter speaking.  Ms. Keen, would you like to order a copy of the transcript?
+		MS. KEEN:  No, I'll just have to ask her if she wants to read or waive.
+		THE WITNESS:  I'll read.
+		MS. KEEN:  The witness likes to read.
+
+
+3. By Lines should be included at the beginning of examinations and when you break from Colloquy back into Q/A. They indicate who the Q belongs to. 
+They MUST end with a colon, left aligned, and start at the margin.
+
+For example:
+
+		THE REPORTER:  Okay.  The time is 10:32 a.m., and we are off the record.
+		(Off the record.)
+		THE REPORTER:  We are back on the record.  The time is 10:38 a.m.
+BY MR. REDDINGTON:
+	Q.	Amber, you mentioned a casual encounter at the local café with Mr. Doe.  Can you recall the date and time of this incident?
+	A.	I believe it was on the evening of July 15th, but I can't recall the exact time.
+
+
+4. Parentheticals should be on a line by themselves, preceded by two tabs.
+
+For example:
+
+        THE REPORTER:  The time is 11:02 a.m., and we are off the record.
+        (Off the record.)
+        THE REPORTER: We are back on the record. The time is 11:05 a.m. 
+
+
+5. Use double spaces after sentence-ending punctuation
+
+For example:
+
+	Q.	My name is Raymond Reddington.  May I call you Amber?  Or do you prefer Ms. Hard?  Let me know your preference.
+
+
+6. When an attorney says, "Strike that," the statement that follows MUST start on a new line.
+
+For example:
+
+	Q.	Let's turn our attention to the events leading up to this deposition.  Did you -- strike that.  
+		Were you acquainted with the plaintiff, John Doe, II, before the incident in question?
+	A.	Yes, I knew John Doe.  We were acquaintances.
