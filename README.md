@@ -1,5 +1,10 @@
 # PyCheck
 
+[![license](https://img.shields.io/badge/License-%20MIT%20-green.svg)](./LICENSE)
+![python version](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Formation-Studio](https://img.shields.io/badge/Formation-0.5.0-cyan.svg)
+![platforms](https://img.shields.io/badge/Platforms-Linux%20|%20Windows%20|%20Mac%20-purple.svg)
+
 ## Introduction
 
 This is PyCheck! A legal transcript auto-formatter and checklist, inspired by [_Automate the Boring Stuff with Python_](https://automatetheboringstuff.com/) by Al Sweigart and [_Formation_](https://github.com/ObaraEmmanuel/Formation) library by [@ObaraEmmanuel](https://github.com/ObaraEmmanuel).
